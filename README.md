@@ -1,0 +1,1 @@
+# autotest-integration-java
