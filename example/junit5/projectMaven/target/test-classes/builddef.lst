@@ -1,0 +1,15 @@
+-Xajruntimetarget:1.5
+-1.8
+-source
+1.8
+-target
+1.8
+-classpath
+C:\Users\mikhail.timofeev.TESTIT\.m2\repository\ru\testit\junit5\0.1\junit5-0.1.jar;C:\Users\mikhail.timofeev.TESTIT\.m2\repository\org\aspectj\aspectjrt\1.9.2\aspectjrt-1.9.2.jar;C:\Users\mikhail.timofeev.TESTIT\.m2\repository\org\aspectj\aspectjweaver\1.9.2\aspectjweaver-1.9.2.jar;C:\Users\mikhail.timofeev.TESTIT\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\mikhail.timofeev.TESTIT\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\mikhail.timofeev.TESTIT\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\mikhail.timofeev.TESTIT\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\mikhail.timofeev.TESTIT\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\mikhail.timofeev.TESTIT\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\mikhail.timofeev.TESTIT\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.0.1\jackson-databind-2.0.1.jar;C:\Users\mikhail.timofeev.TESTIT\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.0.1\jackson-annotations-2.0.1.jar;C:\Users\mikhail.timofeev.TESTIT\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.0.1\jackson-core-2.0.1.jar;C:\Users\mikhail.timofeev.TESTIT\.m2\repository\org\projectlombok\lombok\1.18.16\lombok-1.18.16.jar;C:\Users\mikhail.timofeev.TESTIT\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\mikhail.timofeev.TESTIT\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\mikhail.timofeev.TESTIT\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\mikhail.timofeev.TESTIT\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\mikhail.timofeev.TESTIT\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\mikhail.timofeev.TESTIT\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\mikhail.timofeev.TESTIT\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\mikhail.timofeev.TESTIT\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\mikhail.timofeev.TESTIT\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;D:\projects\libs\java\JUnit5\v.0.1_javaLib_Jupiter+Maven\projectMaven\target\test-classes;D:\projects\libs\java\JUnit5\v.0.1_javaLib_Jupiter+Maven\projectMaven\target\classes
+-inpath
+C:\Users\mikhail.timofeev.TESTIT\.m2\repository\ru\testit\junit5\0.1\junit5-0.1.jar
+-aspectpath
+D:\projects\libs\java\JUnit5\v.0.1_javaLib_Jupiter+Maven\projectMaven\target\classes
+-d
+D:\projects\libs\java\JUnit5\v.0.1_javaLib_Jupiter+Maven\projectMaven\target\test-classes
+D:\projects\libs\java\JUnit5\v.0.1_javaLib_Jupiter+Maven\projectMaven\src\test\java\ru\TestItNewPack\SimplePack\SimpleTest.java

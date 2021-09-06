@@ -1,0 +1,125 @@
+[
+  {
+    "configurationId": "8537eda9-5122-4f3a-9d8f-4463ef7a176d",
+    "autoTestExternalId": "WTF1",
+    "outcome": "Passed",
+    "startedOn": "2020-12-06T15:38:28.452Z",
+    "completedOn": "2020-12-06T15:38:28.469Z",
+    "duration": 17,
+    "stepResults": [
+      {
+        "title": "First Test",
+        "description": "First Test Renamed Description",
+        "startedOn": "2020-12-06T15:38:28.452Z",
+        "completedOn": "2020-12-06T15:38:28.469Z",
+        "duration": 17,
+        "outcome": "Passed",
+        "stepResults": [
+          {
+            "title": "doSomething",
+            "description": "doSomethingDesc",
+            "startedOn": "2020-12-06T15:38:28.465Z",
+            "completedOn": "2020-12-06T15:38:28.465Z",
+            "duration": 0,
+            "outcome": "Passed",
+            "stepResults": []
+          }
+        ]
+      }
+    ],
+    "setupResults": [
+      {
+        "title": "BeforeClass",
+        "description": "BeforeClassDesc",
+        "startedOn": "2020-12-06T15:38:28.136Z",
+        "completedOn": "2020-12-06T15:38:28.186Z",
+        "duration": 50,
+        "outcome": "Passed",
+        "stepResults": [
+          {
+            "title": "doBeforeSt",
+            "description": "doBeforeStDesc",
+            "startedOn": "2020-12-06T15:38:28.183Z",
+            "completedOn": "2020-12-06T15:38:28.183Z",
+            "duration": 0,
+            "outcome": "Passed",
+            "stepResults": []
+          }
+        ]
+      },
+      {
+        "title": "Before",
+        "description": "BeforeDesc",
+        "startedOn": "2020-12-06T15:38:28.452Z",
+        "completedOn": "2020-12-06T15:38:28.453Z",
+        "duration": 1,
+        "outcome": "Passed",
+        "stepResults": [
+          {
+            "title": "doBefore",
+            "description": "doBeforeDesc",
+            "startedOn": "2020-12-06T15:38:28.452Z",
+            "completedOn": "2020-12-06T15:38:28.452Z",
+            "duration": 0,
+            "outcome": "Passed",
+            "stepResults": []
+          }
+        ]
+      }
+    ],
+    "teardownResults": [
+      {
+        "title": "AfterClass",
+        "description": "AfterClassDesc",
+        "startedOn": "2020-12-06T15:38:28.471Z",
+        "completedOn": "2020-12-06T15:38:28.471Z",
+        "duration": 0,
+        "outcome": "Passed",
+        "stepResults": [
+          {
+            "title": "doAfterSt",
+            "description": "doAfterStDesc",
+            "startedOn": "2020-12-06T15:38:28.471Z",
+            "completedOn": "2020-12-06T15:38:28.471Z",
+            "duration": 0,
+            "outcome": "Passed",
+            "stepResults": []
+          }
+        ]
+      },
+      {
+        "title": "After",
+        "description": "AfterDesc",
+        "startedOn": "2020-12-06T15:38:28.465Z",
+        "completedOn": "2020-12-06T15:38:28.465Z",
+        "duration": 0,
+        "outcome": "Passed",
+        "stepResults": [
+          {
+            "title": "doAfter",
+            "description": "doAfterDesc",
+            "startedOn": "2020-12-06T15:38:28.465Z",
+            "completedOn": "2020-12-06T15:38:28.465Z",
+            "duration": 0,
+            "outcome": "Passed",
+            "stepResults": []
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "title": "test",
+        "url": "www.test.com",
+        "description": "testDesc",
+        "type": "Related"
+      },
+      {
+        "title": "test",
+        "url": "www.test.com",
+        "description": "testDesc",
+        "type": "Related"
+      }
+    ]
+  }
+]
