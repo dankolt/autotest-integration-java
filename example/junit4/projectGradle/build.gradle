@@ -1,0 +1,35 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+compileJava.options.encoding = 'utf-8'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'utf-8'
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    compile 'ru.testit:junit:0.8'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.0.0'
+}
+
+ext {
+    junitFoundation = configurations.compile.resolvedConfiguration.resolvedArtifacts.find { it.name == 'junit-foundation' }
+}
+
+test.doFirst {
+    def weaver = configurations.compile.find { it.name.contains("aspectjweaver") }
+    jvmArgs += "-javaagent:$weaver"
+    jvmArgs += "-javaagent:${junitFoundation.file}"
+}
